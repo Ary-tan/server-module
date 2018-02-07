@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #btn1 {
+        display: none;
+    }
+</style>
+<body>
+<div>
+    <div class="">
+        <button id="btn">测试按钮</button>
+    </div>
+</div>
+</body>
+<script>
+    const [user, account] = Promise.all([
+        fetch('/user'),
+        fetch('/account')
+    ]);
+    user
+</script>
+</html>
